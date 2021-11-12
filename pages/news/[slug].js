@@ -1,6 +1,6 @@
 import { createClient } from "contentful";
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer";
-
+import Head from "next/head";
 import {
   SingleNewsWrapper,
   ImageDiv,

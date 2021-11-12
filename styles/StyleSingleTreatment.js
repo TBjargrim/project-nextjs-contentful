@@ -17,7 +17,7 @@ export const WrapperDetails = styled.div`
       font-size: 48px;
       letter-spacing: 2px;
       @media (max-width: 960px) {
-        font-size: 40px;
+        font-size: 32px;
       }
     }
     h4 {
@@ -35,7 +35,7 @@ export const WrapperDetails = styled.div`
       letter-spacing: 0.5px;
       line-height: 25px;
     }
-    @media (max-width: 960px) {
+    @media (max-width: 1200px) {
       width: 350px;
       flex-direction: column;
       padding: 0;
@@ -82,8 +82,12 @@ export const Buttondiv = styled(motion.div)`
     background: none;
     text-transform: uppercase;
     letter-spacing: 2px;
+    @media (max-width: 960px) {
+      border: 1px solid #3d4242;
+      width: 150px;
+    }
   }
   @media (max-width: 960px) {
-    border: 2px solid #d0d5d5;
+    padding: 20px 0 40px 0;
   }
 `;

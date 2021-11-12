@@ -55,7 +55,6 @@ export const StyleImage = styled.div`
   img {
     width: 250px;
     border-radius: 10px;
-
     @media (max-width: 960px) {
       width: 200px;
       display: flex;
@@ -84,10 +83,9 @@ export const Buttondiv = styled(motion.div)`
     letter-spacing: 2px;
     @media (max-width: 960px) {
       border: 1px solid #3d4242;
-      width: 150px;
     }
   }
   @media (max-width: 960px) {
-    padding: 20px 0 40px 0;
+    padding: 20px 0 30px 0;
   }
 `;
